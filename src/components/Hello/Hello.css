@@ -1,0 +1,14 @@
+.HelloContainer {
+  text-align: center;
+  font-size: 30px;
+  display: flex;
+}
+
+.TextContainer {
+  border-radius: 5px solid;
+  border: 2px solid lightgray;
+  width: 200px;
+  color: lightcoral;
+  margin: 5px auto;
+  padding: 0 5px;
+}

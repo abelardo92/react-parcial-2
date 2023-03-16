@@ -1,23 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import UseFormTest2 from './components/UseFormTest2/UseFormTest2.tsx';
+// import UseFormTest from './components/UseFormTest/UseFormTest.tsx';
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <UseFormTest2 />
+      {/* <UseFormTest /> */}
     </div>
   );
 }
