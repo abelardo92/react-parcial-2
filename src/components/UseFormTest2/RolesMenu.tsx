@@ -1,11 +1,11 @@
-import React, { ChangeEventHandler } from 'react';
+import React, { useContext } from 'react';
+import { EmployeeContextData, EmployeeContext } from '../../imports/employeeContext.ts';
 
-interface IRolesMenu {
-  role: number,
-  handleChange: ChangeEventHandler<HTMLInputElement>,
-};
+function RolesMenu() {
 
-function RolesMenu({role, handleChange}: IRolesMenu) {
+  const { data: { role }, handleChange } = 
+  useContext<EmployeeContextData>(EmployeeContext);
+
   return (
     <p>
     Radio buttons:
